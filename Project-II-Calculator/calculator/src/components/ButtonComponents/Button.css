@@ -1,0 +1,21 @@
+.firstRow{
+    display: flex;
+    border: 1px solid grey;
+
+}
+
+.actionButton{
+    width: 75%;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.divideTile{
+    width: 25%;
+    text-align: center;
+    background-color: maroon;
+    color: whitesmoke;
+
+}
