@@ -1,8 +1,9 @@
-.calculatorContainer{
+.calculator{
    margin: 0 auto;
-    width: 50vw;
-    height: 80vh;
+    width: 50%;
+    margin-top: 2%;
     border: 2px solid grey;
+    
 
     
 }

@@ -6,16 +6,12 @@ import ThirdRowButtons from './components/ButtonComponents/ThirdRowButtons';
 import FourthRowButtons from './components/ButtonComponents/FourthRowButtons';
 import FifthRowButtons from './components/ButtonComponents/FifthRowButtons';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div className="calculatorContainer">
-    <CalculatorDisplay/>
-    <ActionButton/>
-    <SecondRowButtons/>
-    <ThirdRowButtons/>
-    <FourthRowButtons/>
-    <FifthRowButtons/>
+    <div className="calculator">
+      <NumberButton/>
     </div>
   );
 };
