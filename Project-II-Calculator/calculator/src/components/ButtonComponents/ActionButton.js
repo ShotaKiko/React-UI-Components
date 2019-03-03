@@ -5,17 +5,13 @@ function ActionButton(props) {
     return(
         <div className="firstRow">
             <div className="actionButton"> 
-                <p>clear</p>
-            </div>
-
-            <div className="divideTile">
-                <h2>÷</h2>
+                clear
             </div>
         
-        
-        
+            <div className="tileOperator">
+                ÷
+            </div>
         </div>
-    );
-}
+    )}
 
-export default ActionButton;
+    export default ActionButton;
